@@ -1,0 +1,215 @@
+body ,html{
+	height: 100%;
+	margin: 0%;
+}
+/*this is for body*/
+.first{
+	background-image: url("y.jpeg");
+   	background-size: cover;                  
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	background-color: #B4F3EC;
+}
+/*this is for tabs*/
+.tab{
+	overflow: hidden;
+}
+.tab button{
+	color: white;
+	background-color: inherit;
+	float: center;
+	text-align: center;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 12px 10px;
+	font-size: 19px;
+	font-family: cursive;
+	margin-left: 20px;
+}
+.tab button:hover{
+	background-color: #0E110A;
+}
+.tab button:active{
+	background-color: #BDB6B8;
+}
+/*this is for login and signin*/
+.legend{
+	color: #FEF4C1;
+	margin-left: 25px;
+	font-size: 20px;
+}
+.fieldset{
+	width: 300px;
+	height: 350px;
+
+	margin-top: 135px;
+	margin-left: 995px;
+	border: none;
+	outline: none;
+}
+.input{
+	margin-top: 40px;
+	margin-left: 40px;
+	float: center;
+	text-align: center;
+	position: center;
+	background-color: inherit;
+	color: #DAD0DB;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.input input:hover{
+	background-color: blue;
+}
+.input input:active{
+	background-color: white;
+}
+/*this is for Question buutton + slideshow*/
+
+.both{
+	margin-top: 690px;
+}
+
+.aside{
+	float: left;
+	width: 40%
+	margin: 0px;
+}
+.section{
+	width:60%
+	float:left;
+}
+.question{
+	border-radius: 20px;
+	outline: none;
+	cursor: pointer;
+	margin-top: px;
+	margin-left: 200px;
+	background-color: blue;
+	color: white;
+	font-family: cursive;
+	font-size: 15px;
+}
+.answer{
+	border-radius: 20px;
+	outline: none;
+	margin: 20px;
+	margin-left: 70px;
+
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: absolute;
+  margin-left: 650px;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/*this is for second button of photo editing + textarea and for image*/
+.editing{
+	margin-top: 500px;
+}
+.aside2{
+	float: right;
+	width: 40%;
+}	
+.aside2 button{ 
+	font-size: 30px;
+	border-radius: 20px;
+	background-color: blue;
+	color: white;
+	outline: none;
+	margin-left: 130px;
+	font-family: cursive;
+}
+.aside2 textarea{
+	border-radius: 20px;
+	outline: none;
+	font-family: cursive;
+	font-size: 20px;
+}
+.section2{
+	float: left;
+	width: 60%;
+}
+/*this is for collage making + textarea*/
+.collage{
+	margin-top: 520px;
+	margin-right: 190px;
+}
+.aside3{
+	float: right;
+	width: 40%;
+}
+.img{
+	margin-right: 100px;
+}
+.section3{
+	float: left;
+	width: 60%;	
+}
+.section3 button{
+	font-size: 30px;
+	border-radius: 20px;
+	background-color: blue;
+	color: white;
+	outline: none;
+	margin-left: 200px;
+	font-family: cursive;
+}
+.section3 textarea{
+	border-radius: 20px;
+	outline: none;
+	font-family: cursive;
+	font-size: 20px;
+	margin-left: 100px;	
+}
+.details{
+	margin-top: 550px;
+	
+}
+.details button{
+	outline: none;
+	font-family: cursive;
+	font-size: 35px;
+	background-color: blue;
+	color: white;
+	border-radius: 20px;
+	margin-left:30px;
+}
+.details textarea{
+	font-family: cursive;
+	font-size: 25px;
+	border-radius: 20px;
+	outline: none;
+	margin-left: 150px;
+}
+
+/*this is for details*/
+.details{
+	color: 
+}

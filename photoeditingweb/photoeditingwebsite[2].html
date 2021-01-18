@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SPHOTO-EDITING | WEB PAGE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="short icon" type="image/png" href="favicon.png">
+</head>
+<body class="first">
+	<div class="tab">
+	<img src="logo3.png" width="190" height="150">
+	<a href="https://www.befunky.com/create/" target="_blank"><button style="margin-left: 310px;" class="login">Photo Editing</button></a>
+	<a href="https://www.befunky.com/create/collage/" target="_blank"><button class="signin">Collage Making</button></a>
+	<button>Details</button>
+	<a href="login.html"><button style="margin-left: 220px;">login</button></a>
+	<a href="signin.html"><button>Signin</button></a>
+	</div>
+	<div class="both">
+		<br><br>
+	<aside class="aside"><a href="https://www.techopedia.com/definition/7686/image-editing" target="_blank"><button class="question"><h4>WHAT IS IMAGE EDITING ?</h4></button></a><br><br>
+	<b><textarea class="answer" rows="8" cols="36" style="font-size: 26px; font-family: cursive;">&nbsp;Image editing refers to modifying or &nbsp;improving digital or traditional &nbsp;photographic images using different &nbsp;techniques, tools or software. ... &nbsp;Image editing is done to create the &nbsp;best possible look for the images and &nbsp;also to improve the overall quality &nbsp;of the image according to different &nbsp;parameters.</textarea></b></aside>
+	<section class="section">
+		
+		<div class="slideshow-container">
+	<div class="mySlides fade">
+ 		<img src="slide-1.jpg" style="height: 500px; width: 695px;">
+	</div>
+	<div class="mySlides fade">
+  		<img src="slide-3.jpg" style="height: 500px; width: 695px;">
+	</div>
+	<div class="mySlides fade">
+  		<img src="slide-5.jpg" style="height: 500px; width: 695px;">
+	</div>
+	<div class="mySlides fade">
+  		<img src="slide-6.jpg" style="height: 500px; width: 695px;">
+	</div>
+	<div class="mySlides fade">
+  		<img src="slide-7.jpg" style="height: 500px; width: 695px;">
+	</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); 
+}
+</script>
+</section>
+</div>
+<div class="editing">
+	<aside class="aside2">
+		<a href="https://www.befunky.com/create/" target="_blank"><button>Photo Editing</button></a><br><br>
+		<b><textarea rows="14" cols="40">
+			To put it simply, S~EDITOR makes photo editing easy. With our world famous Photo Editor, you can turn photos you like into photos you love! From essential editing tools such as crop, resize, and exposure to our more unique effects like Cartoonizer, Digital Art, and Enhance DLX, it's beyond easy to create great looking photos. Add a little extra flair to your image with hundreds of customizable vector icons and graphic overlays. If picture quotes are your thing, BeFunky's Photo Editor has hundreds of free fonts for you to choose from. Finally, a photo editor that's powerful, fun, AND easy to use!
+		</textarea></b>
+	</aside><br>
+	<section class="section2">
+		<img src="pic.jpg" width="620" height="490">
+	</section>
+</div>
+<div class="collage">
+	<aside class="aside3">
+		<img src="collage.jpg" width="650" height="550" >
+	</aside>
+	<section class="section3">
+		<a href="https://www.befunky.com/create/collage/" target="_blank"><button>Collage Making</button></a><br><br>
+		<b><textarea rows="13" cols="40">
+			Tell a story, share an adventure, or create anything else you want, our Collage Maker is here for you. BeFunky's Collage Maker empowers you to easily create breathtaking online photo collages. Simply upload your photos and let our Collage Wizard automatically create a stunning collage for you, or choose from our collection of fully customizable layouts. We even have layouts designed especially for Pinterest, Facebook, Twitter, and Instagram, so your posts are guaranteed to stand out from the crowd.
+		</textarea></b>
+	</section>
+</div><br><br>
+<div class="details">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>D</button>
+	<button>E</button>
+	<button>T</button>
+	<button>A</button>
+	<button>I</button>
+	<button>L</button>
+	<button>S</button><br><br>
+	<textarea rows="6" cols="70">
+	   FEATURES	         PRODUCT			
+	   ->photo effect    ->photo editor
+           ->touch up	    ->collage makker	 
+	   ->photo to art
+	    ->text editor
+	</textarea>
+</div>
+</body>
+</html>
